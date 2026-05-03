@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Theme */
+
+:root {
+    --primary: #ffcb05;
+    --secondary: #1f2937;
+    --accent: #f59e0b;
+}
+
+.project-card:hover {
+    box-shadow: 0 10px 30px rgba(255, 203, 5, 0.4);
+}
