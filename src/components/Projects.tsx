@@ -1,20 +1,26 @@
 const Projects = () => {
   const projects = [
     {
-      name: "Akatsuki Draft main ",
-      desc: "In these project we add shayari and thoghts and more.",
-      tech: ["React", "talwind", "typescript"],
+      name: "Akatsuki Draft",
+      desc: "A platform to share shayari, thoughts, and creative writing with a clean UI.",
+      tech: ["React", "Tailwind", "TypeScript"],
       github: "https://github.com/pagardeep/Akatsuki-Drafts-Project",
       live: "https://thundertask.vercel.app",
     },
     {
       name: "Calculator",
-      desc: "enhance my html, css and js concept.",
-      tech: ["html", "css", "js"],
+      desc: "A simple calculator to strengthen core concepts of HTML, CSS, and JavaScript.",
+      tech: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/pagardeep/SCT_WD_02",
       live: "https://emberchat.vercel.app",
     },
-    
+    {
+      name: "Recipe Pro",
+      desc: "Search any food recipe with step-by-step instructions and video tutorials for better understanding.",
+      tech: ["React", "API", "CSS"],
+      github: "https://github.com/pagardeep/Rcipe-Pro",
+      live: "#", // add live link later if you deploy
+    },
   ];
 
   return (
@@ -28,7 +34,7 @@ const Projects = () => {
 
             <div
               key={index}
-              className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition duration-300 transform hover:-translate-y-3 hover:scale-[1.02]"
+              className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl transition duration-300 transform hover:-translate-y-3 hover:scale-[1.03]"
             >
               {/* Title */}
               <h3 className="text-xl font-bold mb-2 text-gray-800">
